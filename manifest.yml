@@ -1,0 +1,9 @@
+---
+applications:
+- name: config-client-demo
+  random-route: true
+  memory: 1G
+  instances: 1
+  path: ./target/config-client-demo-0.0.1-SNAPSHOT.jar
+  services:
+  - jdbc-config-server
