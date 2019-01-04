@@ -1,0 +1,1 @@
+cf add-network-policy config-client-demo --destination-app config-server-jdbc-demo
